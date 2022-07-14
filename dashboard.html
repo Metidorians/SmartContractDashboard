@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Metidorians - Dashboard </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/dashboard/images/favicon.png">
+	<link href="./assets/dashboard/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="./assets/dashboard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="./assets/dashboard/css/style.css" rel="stylesheet">
+	<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="./assets/dashboard/images/logo.png" alt="">
+                <img class="logo-compact" src="./assets/dashboard/images/logo-text.png" alt="">
+                <img class="brand-title" src="./assets/dashboard/images/logo-text.png" alt="">
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+		
+		
+		<!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="deznav">
+            <div class="deznav-scroll">
+				<ul class="metismenu" id="menu">
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+							<i class="flaticon-381-networking"></i>
+							<span class="nav-text">Dashboard</span>
+						</a>
+                        <ul aria-expanded="false">
+							<li><a href="dashboard.html">Dashboard</a></li>
+							
+						</ul>
+                    </li>
+                   
+                    
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+							<i class="flaticon-381-internet"></i>
+							<span class="nav-text">Website</span>
+						</a>
+                        <ul aria-expanded="false">
+                            <li><a href="https://www.metidorians.com">Website</a></li>
+
+                        </ul>
+                    </li>
+                   
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+							<i class="flaticon-381-enter"></i>
+							<span class="nav-text">Other links</span>
+						</a>
+                        <ul aria-expanded="false">
+                            <li><a href="./page-register.html" class="flaticon-381-internet"> Analytics</a></li>
+                            <li><a href="./page-login.html" class="flaticon-381-internet" > dApp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            
+				
+				<div class="copyright">
+					<p class="fs-14 font-w200"><strong class="font-w400"> Metidorians Dashboard</strong> © 2022 All Rights Reserved</p>
+					
+				</div>
+			</div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+		
+		<!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <!-- row -->
+			<div class="container-fluid">
+				<div class="form-head d-flex mb-3 mb-md-4 align-items-start">
+					<div class="mr-auto d-none d-lg-block">
+						<h3 class="text-black font-w600">Welcome to Metidorians Dashboard!</h3>
+						<p class="mb-0 fs-18"></p>
+					</div>
+					
+					
+					<a href="javascript:void(0);" class="settings-icon  ml-3"><i class="flaticon-381-settings-2 mr-0"></i></a>
+				</div>
+				<div class="row">	
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-info rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1"  >Metis Price</p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3"  id="Metis"  ></h2>
+											
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="assets/dashboard/images/metis.png">
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-success rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">DarkMatter Circulating</p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="totalsup" ></h2>
+											<div>	
+												
+
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="assets/dashboard/images/DarkMatter.png">
+
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-danger rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">Burned MMDorians</p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="dropaddy"></h2>
+											<div>	
+												
+												
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+												<img width="70" height="70" src="assets/dashboard/images/metidorians.png">
+
+												</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-secondary rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">Staked Metidorians</p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="staked"></h2>
+											<div>	
+												
+												<div class="fs-14"></div>
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="assets/dashboard/images/metidorians.png">
+
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-success rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">MMDorians Circulating</p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="brate"></h2>
+											<div>	
+												
+												<div class="fs-14"></div>
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="assets/dashboard/images/metidorians.png">
+
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-danger rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">Burned DarkMatter </p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="balance"></h2>
+											<div>	
+												
+												<div class="fs-14"></div>
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="assets/dashboard/images/DarkMatter.png">
+
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-dark rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">Locked DarkMatter </p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="balance1"></h2>
+											<div>	
+												
+												<div class="fs-14"></div>
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="https://es.seaicons.com/wp-content/uploads/2016/09/Lock-icon.png">
+
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xl-3 col-xxl-6 col-sm-6">
+						<div class="card gradient-bx text-white bg-dark rounded">	
+							<div class="card-body">
+								<div class="media align-items-center">
+									<div class="media-body">
+										<p class="mb-1">Locked MMDorians </p>
+										<div class="d-flex flex-wrap">
+											<h2 class="fs-40 font-w600 text-white mb-0 mr-3" id="lockedmm"></h2>
+											<div>	
+												
+												<div class="fs-14"></div>
+											</div>
+										</div>
+									</div>
+									<span class="border rounded-circle p-4">
+										<img width="70" height="70" src="https://es.seaicons.com/wp-content/uploads/2016/09/Lock-icon.png">
+
+										</img>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright ©    <a href="https://metidorians.com" target="_blank">Metidorians</a> 2022</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./assets/dashboard/vendor/global/global.min.js"></script>
+	<script src="./assets/dashboard/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="./assets/dashboard/vendor/chart.js/Chart.bundle.min.js"></script>
+    <script src="./assets/dashboard/js/custom.min.js"></script>
+	<script src="./assets/dashboard/js/deznav-init.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/3.0.0-rc.5/web3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+
+	<script>
+		let data;
+
+	const api_url = "https://api.coingecko.com/api/v3/simple/price?ids=metis-token&vs_currencies=usd";
+	async function getData() {
+		const response = await fetch(api_url);
+		data = await response.json();
+	// console.log(data["metis-token"].usd);
+		$('#Metis').html("$ "+data["metis-token"].usd); 
+	}
+	getData()
+	</script>
+	
+	<!-- Apex Chart -->
+	<script src="./vendor/apexchart/apexchart.js"></script>
+	
+	
+
+	<script>
+		var contract;
+		
+		$(document).ready(function()
+		{
+			web3 = new Web3("https://andromeda.metis.io/?owner=1088");
+			var address = "0x2207fe616CAb5DaA9e84Ac5043dA38C6722de1C9";
+			var abi = [{"inputs":[{"internalType":"address","name":"trustedForwarder","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"caller","type":"address"}],"name":"MetaTxnsDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"caller","type":"address"}],"name":"MetaTxnsEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"account","type":"address"}],"name":"Paused","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"role","type":"bytes32"},{"indexed":true,"internalType":"bytes32","name":"previousAdminRole","type":"bytes32"},{"indexed":true,"internalType":"bytes32","name":"newAdminRole","type":"bytes32"}],"name":"RoleAdminChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"role","type":"bytes32"},{"indexed":true,"internalType":"address","name":"account","type":"address"},{"indexed":true,"internalType":"address","name":"sender","type":"address"}],"name":"RoleGranted","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"bytes32","name":"role","type":"bytes32"},{"indexed":true,"internalType":"address","name":"account","type":"address"},{"indexed":true,"internalType":"address","name":"sender","type":"address"}],"name":"RoleRevoked","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"sender","type":"address"},{"indexed":true,"internalType":"address","name":"token","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"TokensRescued","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"account","type":"address"}],"name":"Unpaused","type":"event"},{"inputs":[],"name":"DEFAULT_ADMIN_ROLE","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"DOMAIN_SEPARATOR","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MINTER_ROLE","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"PAUSER_ROLE","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"RESCUER_ROLE","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"ROUTER_ROLE","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"TAKE_FEE_ROLE","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_user","type":"address"}],"name":"blackList","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"disableMetaTxns","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"enableMetaTxns","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"role","type":"bytes32"}],"name":"getRoleAdmin","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"bytes32","name":"role","type":"bytes32"},{"internalType":"address","name":"account","type":"address"}],"name":"grantRole","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"role","type":"bytes32"},{"internalType":"address","name":"account","type":"address"}],"name":"hasRole","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"forwarder","type":"address"}],"name":"isTrustedForwarder","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"maxSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"metaTxnsEnabled","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"mint","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"}],"name":"nonces","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"pause","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"paused","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"permit","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"_user","type":"address"}],"name":"removeFromBlacklist","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"role","type":"bytes32"},{"internalType":"address","name":"account","type":"address"}],"name":"renounceRole","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"contract IERC20","name":"token","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"rescueTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"role","type":"bytes32"},{"internalType":"address","name":"account","type":"address"}],"name":"revokeRole","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes4","name":"interfaceId","type":"bytes4"}],"name":"supportsInterface","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"unpause","outputs":[],"stateMutability":"nonpayable","type":"function"}]
+			contract = new web3.eth.Contract(abi, address)
+			var mmabi = [{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"spender","type":"address"},{"name":"tokens","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"from","type":"address"},{"name":"to","type":"address"},{"name":"tokens","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"_totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"tokenOwner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"safeSub","outputs":[{"name":"c","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"to","type":"address"},{"name":"tokens","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"safeDiv","outputs":[{"name":"c","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"spender","type":"address"},{"name":"tokens","type":"uint256"},{"name":"data","type":"bytes"}],"name":"approveAndCall","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"safeMul","outputs":[{"name":"c","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"tokenOwner","type":"address"},{"name":"spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"safeAdd","outputs":[{"name":"c","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"tokens","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"tokenOwner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"tokens","type":"uint256"}],"name":"Approval","type":"event"}]
+			var mmdorians = "0x6957B8F72b9DcB6A05E1384E422454F107Ebe0a8"
+			
+
+			sc_mmd = new web3.eth.Contract(mmabi, mmdorians)
+			var burnedMM = sc_mmd.methods.balanceOf("0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000").call()
+			var stakedm = sc_mmd.methods.balanceOf("0x03Fa09cf7501Daa355a99a71766749f0B402c091").call()
+			var lockedm = sc_mmd.methods.balanceOf("0xEd26f0c3d52B74B34849eA3cB8F60328085249CF").call()
+			var lockedmm = 0;
+			var circmm = (5000000-stakedm/1e18-lockedm/1e18);
+			var stakedmm = 0;
+			var burnedtok = 0;
+			var burneddmt = 0;
+
+			sc_mmd.methods.balanceOf("0x03Fa09cf7501Daa355a99a71766749f0B402c091").call().then(function(staked)
+			{
+				stakedmm = staked/1e18;
+				$('#staked').html(stakedmm.toFixed(2));
+			})
+
+			sc_mmd.methods.balanceOf("0xEd26f0c3d52B74B34849eA3cB8F60328085249CF").call().then(function(locked)
+			{
+				lockedmm = locked/1e18;
+				$('#lockedmm').html(locked/1e18);
+			})
+
+
+			
+			sc_mmd.methods.balanceOf("0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000").call().then(function(balanceOf)
+            {
+                var balance = balanceOf/1e18;
+                burnedtok = balanceOf/1e18;
+                $('#dropaddy').html(balance.toFixed(2));
+            })
+			
+			contract.methods.balanceOf("0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000").call().then(function(balanceOf)
+			{
+				var balance = balanceOf/1e18
+				burneddmt = balanceOf/1e18;
+				$('#balance').html(balance.toFixed(2));
+				
+			})
+			contract.methods.balanceOf("0xEd26f0c3d52B74B34849eA3cB8F60328085249CF").call().then(function(balanceOf)
+			{
+				
+				$('#balance1').html(balanceOf/1e18);
+				
+			})
+			contract.methods.totalSupply().call().then(function(balanceOf)
+			{	
+				var balance = balanceOf/1e18
+				$('#totalsup').html(balance.toFixed(2)-burneddmt.toFixed(2));
+				
+			})
+
+			sc_mmd.methods.totalSupply().call().then(function(staked)
+			{
+				$('#brate').html(5000000.00 - stakedmm.toFixed(2))-(lockedmm.toFixed(2)-burnedtok.toFixed(2));
+
+				console.log(staked)
+			})
+			
+		
+			
+			})
+	</script>
+
+	
+	
+</body>
+</html>
